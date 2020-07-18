@@ -96,17 +96,3 @@ Copy-paste this code into your readme and change the links.
 Endpoint: api/pin?username=mutiairnawati&repo=github-readme-stats
 
 ![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=mutiairnawati&repo=github-readme-stats)
-
-Quick Tip (Align The Repo Cards)
-You usually won't be able to layout the images side by side. To do that you can use this approach:
-
-<a href="https://github.com/mutiairnawati/github-readme-stats">
-  <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=mutiairnawati&repo=github-readme-stats" />
-</a>
-<a href="https://github.com/mutiairnawati/JJnuZ">
-  <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=mutiairnawati&repo=JJnuZ" />
-</a>
-Deploy on your own Vercel instance
-Since the GitHub API only allows 5k requests per hour, it is possible that my https://github-readme-stats.vercel.app/api could hit the rate limiter. If you host it on your own Vercel server, then you don't have to worry about anything. Click on the deploy button to get started!
-
-NOTE: Since #58 we should be able to handle more than 5k requests and have no issues with downtime.
