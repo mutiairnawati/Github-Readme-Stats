@@ -5,7 +5,7 @@ const fetchRepo = require("../src/fetchRepo");
 
 const data_repo = {
   repository: {
-    name: "convoychat",
+    name: "JJnuZ",
     stargazers: { totalCount: 38000 },
     description: "Help us take over the world! React + TS + GraphQL Chat App",
     primaryLanguage: {
@@ -40,14 +40,14 @@ describe("Test fetchRepo", () => {
   it("should fetch correct user repo", async () => {
     mock.onPost("https://api.github.com/graphql").reply(200, data_user);
 
-    let repo = await fetchRepo("mutiairnawati", "convoychat");
+    let repo = await fetchRepo("mutiairnawati", "JJnuZ");
     expect(repo).toStrictEqual(data_repo);
   });
 
   it("should fetch correct org repo", async () => {
     mock.onPost("https://api.github.com/graphql").reply(200, data_org);
 
-    let repo = await fetchRepo("mutiairnawati", "convoychat");
+    let repo = await fetchRepo("mutiairnawati", "JJnuZ");
     expect(repo).toStrictEqual(data_repo);
   });
 
@@ -56,7 +56,7 @@ describe("Test fetchRepo", () => {
       .onPost("https://api.github.com/graphql")
       .reply(200, { data: { user: { repository: null }, organization: null } });
 
-    await expect(fetchRepo("mutiairnawati", "convoychat")).rejects.toThrow(
+    await expect(fetchRepo("mutiairnawati", "JJnuZ")).rejects.toThrow(
       "User Repository Not found"
     );
   });
@@ -66,7 +66,7 @@ describe("Test fetchRepo", () => {
       .onPost("https://api.github.com/graphql")
       .reply(200, { data: { user: null, organization: { repository: null } } });
 
-    await expect(fetchRepo("mutiairnawati", "convoychat")).rejects.toThrow(
+    await expect(fetchRepo("mutiairnawati", "JJnuZ")).rejects.toThrow(
       "Organization Repository Not found"
     );
   });
@@ -76,7 +76,7 @@ describe("Test fetchRepo", () => {
       .onPost("https://api.github.com/graphql")
       .reply(200, { data: { user: null, organization: null } });
 
-    await expect(fetchRepo("mutiairnawati", "convoychat")).rejects.toThrow(
+    await expect(fetchRepo("mutiairnawati", "JJnuZ")).rejects.toThrow(
       "Not found"
     );
   });
@@ -89,7 +89,7 @@ describe("Test fetchRepo", () => {
       },
     });
 
-    await expect(fetchRepo("mutiairnawati", "convoychat")).rejects.toThrow(
+    await expect(fetchRepo("mutiairnawati", "JJnuZ")).rejects.toThrow(
       "User Repository Not found"
     );
   });
