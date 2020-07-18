@@ -7,7 +7,7 @@ const { queryByTestId } = require("@testing-library/dom");
 const data_repo = {
   repository: {
     nameWithOwner: "mutiairnawati/convoychat",
-    name: "convoychat",
+    name: "JJnuZ",
     stargazers: { totalCount: 38000 },
     description: "Help us take over the world! React + TS + GraphQL Chat App",
     primaryLanguage: {
@@ -46,7 +46,7 @@ describe("Test renderRepoCard", () => {
       show_owner: true,
     });
     expect(document.getElementsByClassName("header")[0]).toHaveTextContent(
-      "mutiairnawatk/convoychat"
+      "mutiairnawati/JJnuZ"
     );
   });
 
