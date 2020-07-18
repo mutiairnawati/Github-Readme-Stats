@@ -1,4 +1,3 @@
-
 require("@testing-library/jest-dom");
 const axios = require("axios");
 const MockAdapter = require("axios-mock-adapter");
@@ -8,7 +7,7 @@ const { renderError } = require("../src/utils");
 const calculateRank = require("../src/calculateRank");
 
 const stats = {
-  name: "Anurag Hazra",
+  name: "Mutia Irnawati",
   totalStars: 100,
   totalCommits: 200,
   totalIssues: 300,
@@ -64,7 +63,7 @@ describe("Test /api/", () => {
   it("should test the request", async () => {
     const req = {
       query: {
-        username: "anuraghazra",
+        username: "mutiairnawati",
       },
     };
     const res = {
@@ -82,7 +81,7 @@ describe("Test /api/", () => {
   it("should render error card on error", async () => {
     const req = {
       query: {
-        username: "anuraghazra",
+        username: "mutiairnawati",
       },
     };
     const res = {
@@ -100,7 +99,7 @@ describe("Test /api/", () => {
   it("should get the query options", async () => {
     const req = {
       query: {
-        username: "anuraghazra",
+        username: "mutiairnawati",
         hide: `["issues","prs","contribs"]`,
         show_icons: true,
         hide_border: true,
