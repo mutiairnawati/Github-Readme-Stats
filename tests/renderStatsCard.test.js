@@ -10,7 +10,7 @@ const {
 
 describe("Test renderStatsCard", () => {
   const stats = {
-    name: "Anurag Hazra",
+    name: "Mutia Irnawati",
     totalStars: 100,
     totalCommits: 200,
     totalIssues: 300,
