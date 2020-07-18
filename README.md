@@ -28,9 +28,6 @@
 # Features
 
 - [GitHub Stats Card](#github-stats-card)
-- [GitHub Extra Pins](#github-extra-pins)
-- [Customization](#customization)
-- [Deploy Yourself](#deploy-on-your-own-vercel-instance)
 
 # GitHub Stats Card
 
@@ -45,7 +42,7 @@ Change the `?username=` value to your GitHub's username.
 _Note: Ranks are calculated based on user's stats, see [src/calculateRank.js](./src/calculateRank.js)_
 
 # Github-Readme-Stats
-How to Show my Star
+How to Show my Rank
 
 Copy paste this into your markdown content, and that's it. Simple!
 
