@@ -8,7 +8,7 @@ const { renderError } = require("../src/utils");
 const data_repo = {
   repository: {
     username: "mutiairnawati",
-    name: "convoychat",
+    name: "JJnuZ",
     stargazers: { totalCount: 38000 },
     description: "Help us take over the world! React + TS + GraphQL Chat App",
     primaryLanguage: {
@@ -38,7 +38,7 @@ describe("Test /api/pin", () => {
     const req = {
       query: {
         username: "mutiairnawati",
-        repo: "convoychat",
+        repo: "JJnuZ",
       },
     };
     const res = {
@@ -57,7 +57,7 @@ describe("Test /api/pin", () => {
     const req = {
       query: {
         username: "mutiairnawati",
-        repo: "convoychat",
+        repo: "JJnuZ",
         title_color: "fff",
         icon_color: "fff",
         text_color: "fff",
@@ -83,7 +83,7 @@ describe("Test /api/pin", () => {
     const req = {
       query: {
         username: "mutiairnawati",
-        repo: "convoychat",
+        repo: "JJnuZ",
       },
     };
     const res = {
@@ -104,7 +104,7 @@ describe("Test /api/pin", () => {
     const req = {
       query: {
         username: "mutiairnawati",
-        repo: "convoychat",
+        repo: "JJnuZ",
       },
     };
     const res = {
