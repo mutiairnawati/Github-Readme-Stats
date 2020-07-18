@@ -7,7 +7,7 @@ const calculateRank = require("../src/calculateRank");
 const data = {
   data: {
     user: {
-      name: "Anurag Hazra",
+      name: "Mutia Irnawati",
       repositoriesContributedTo: { totalCount: 61 },
       contributionsCollection: { totalCommitContributions: 100 },
       pullRequests: { totalCount: 300 },
