@@ -5,8 +5,6 @@
 </p>
 <p align="center">
     <a href="https://github.com/mutiairnawati/Github-readme-stats/actions">
-      <img alt="Tests Passing" src="https://github.com/mutiairnawati/Github-readme-stats/workflows/Test/badge.svg" />
-    </a>
     <a href="https://github.com/mutiairnawati/github-readme-stats/issues">
       <img alt="Issues" src="https://img.shields.io/github/issues/mutiairnawati/github-readme-stats?color=0088ff" />
     </a>
@@ -28,18 +26,6 @@
 # Features
 
 - [GitHub Stats Card](#github-stats-card)
-
-# GitHub Stats Card
-
-Copy paste this into your markdown content, and that's it. Simple!
-
-Change the `?username=` value to your GitHub's username.
-
-```md
-[![Mutia's github stats](https://github-readme-stats.vercel.app/api?username=mutiairnawati)](https://github.com/mutiairnawati/github-readme-stats)]
-```
-
-_Note: Ranks are calculated based on user's stats, see [src/calculateRank.js](./src/calculateRank.js)_
 
 # Github-Readme-Stats
 How to Show my Rank
@@ -93,33 +79,6 @@ Copy-paste this code into your readme and change the links.
 Endpoint: api/pin?username=mutiairnawati&repo=github-readme-stats
 
 ![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=mutiairnawati&repo=github-readme-stats)
-## Deploy on your own Vercel instance
-
-Since the GitHub API only allows 5k requests per hour, it is possible that my `https://github-readme-stats.vercel.app/api` could hit the rate limiter. If you host it on your own Vercel server, then you don't have to worry about anything. Click on the deploy button to get started!
-
-NOTE: Since [#58](https://github.com/anuraghazra/github-readme-stats/pull/58) we should be able to handle more than 5k requests and have no issues with downtime :D
-
-[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/anuraghazra/github-readme-stats)
-
-<details>
- <summary>Guide on setting up Vercel</summary>
-
-1. Go to [vercel.com](https://vercel.com/)
-2. Click on `Log in`  
-   ![]
-3. Sign in with GitHub by pressing `Continue with GitHub`  
-   ![]
-4. Sign into GitHub and allow access to all repositories, if prompted
-5. Fork this repo
-6. Go back to your [Vercel dashboard](https://vercel.com/dashboard)
-7. Select `Import Project`  
-   ![]
-8. Select `Import Git Repository`  
-   ![]
-9. Select root and keep everything as is, just add your environment variable named PAT_1 (as shown), which will contain a personal access token (PAT), which you can easily create [here](https://github.com/settings/tokens/new) (leave everything as is, just name it something, it can be anything you want)
-   ![]
-10. Click deploy, and you're good to go. See your domains to use the API!
-</details>
 
 ## :sparkling_heart: Support the project
 
