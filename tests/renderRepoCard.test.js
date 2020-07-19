@@ -6,7 +6,7 @@ const { queryByTestId } = require("@testing-library/dom");
 
 const data_repo = {
   repository: {
-    nameWithOwner: "mutiairnawati/convoychat",
+    nameWithOwner: "mutiairnawati/JJnuZ",
     name: "JJnuZ",
     stargazers: { totalCount: 38000 },
     description: "Help us take over the world! React + TS + GraphQL Chat App",
